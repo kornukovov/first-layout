@@ -1,0 +1,68 @@
+@font-face {
+   font-family: "Graphik LCG";
+   src: url(fonts/GraphikLCG-Regular.woff2);
+}
+
+* {
+   margin: 0;
+   padding: 0;
+}
+
+header {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   width: 3840px;
+   height: 85px;
+   background: #FFFFFF;
+   box-shadow: 0px 4px 22px rgba(0, 0, 0, 0.08);
+}
+
+div {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.leftNavigation {
+   margin-left: 1122px;
+}
+
+.rigthNavigation {
+   margin-right: 1127px;
+}
+
+.logo {
+   margin-right: 50px;
+   width: 231px;
+   height: 34.89px;
+}
+
+.leftNavigation>button {
+   margin-right: 40px;
+
+}
+
+.rigthNavigation>button {
+   margin-right: 49px;
+}
+
+button,
+select {
+   height: 18px;
+   border: none;
+   background-color: #FFFFFF;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   font-family: 'Graphik LCG';
+   font-size: 18px;
+}
+
+.b4 {
+   font-size: 14px;
+   color: #3A85F4;
+   border: 1px solid #3A85F4;
+   border-radius: 123px;
+   padding: 12px 33px 10px 34px;
+}
